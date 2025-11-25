@@ -122,7 +122,7 @@ public class WaterSaverClient implements ClientModInitializer {
         wasInactive = false;
         lastMode = null;
         releaseSpace(client);
-        WaterSaver.LOGGER.info("WaterSaver: Deactivated (player left server).");
+        //WaterSaver.LOGGER.info("WaterSaver: Deactivated (player left server).");
     }
 
     private void releaseSpace(net.minecraft.client.MinecraftClient client) {
