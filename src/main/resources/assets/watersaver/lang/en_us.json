@@ -1,0 +1,5 @@
+{
+  "watersaver.enabled": "WaterSaver: Active (Survival/Adventure).",
+  "watersaver.disabled": "WaterSaver: Disabled (Creative/Spectator).",
+  "watersaver.only_surv_adv": "WaterSaver works only in Survival and Adventure modes."
+}

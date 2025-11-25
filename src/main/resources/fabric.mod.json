@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "watersaver",
+	"version": "${version}",
+	"name": "WaterSaver",
+	"description": "Protects the player from drowning when suddenly exit of a window game. Защищает игрока от утопления при внезапном выходе из окна игры.",
+	"authors": [
+		"Damir00109"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/watersaver",
+		"sources": "https://github.com/Damir00109/WaterSaver"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/watersaver/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.damir00109.WaterSaver"
+		],
+		"client": [
+			"com.damir00109.WaterSaverClient"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.18.1",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
